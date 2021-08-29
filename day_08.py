@@ -9,7 +9,7 @@ def run():
     height = int(input("Please enter the height: "))
     radius = int(input("Please enter the radius: "))
     result = round(cylinder_volume(height, radius), 2)
-    print(f"The cilinder's volume is {result}m^3.")
+    print(f"The cylinder's volume is: {result} m^3.")
 
 if __name__ == "__main__":
     run()
