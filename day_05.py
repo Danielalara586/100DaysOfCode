@@ -7,7 +7,7 @@ def no_vowels(text: str):
     print(f"Your text without vowels is: \n {text}")
 
 def run():
-    text = input("Please enter a text: ")
+    text = input("Please enter a text:  ")
     no_vowels(text)
 
 if __name__ == "__main__":
