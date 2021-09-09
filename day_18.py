@@ -1,4 +1,4 @@
-# Day 1: Memory Game! Part 1
+# Day 18: Memory Game! Part 1
 
 import random 
 
