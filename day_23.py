@@ -4,8 +4,6 @@ import os
 
 os.system("clear")
 print("Welcome to savings calculator! \nWanna know how much money you'll save with a 4% interest rate?")
-amounts: float = []
-month_g: int = []
 saved_money = {}
 
 def upgraded_calculator(amount: float, months: int):
@@ -22,10 +20,8 @@ def savings():
         amount = float(input("Please enter an amount: "))
         months = int(input("Please enter the months: "))
         total = round(upgraded_calculator(amount, months), 2)
-        amounts.append(total)
-        month_g.append(str(months))
         
-        saved_money[amounts[i]] = month_g[i]
+        saved_money[amount] = months
 
 
     return saved_money
