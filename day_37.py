@@ -1,4 +1,4 @@
-# Day 37: Tic-Tac-Toe Logics
+# Day 37: Tic-Tac-Toe Pt2
 
 import pygame, sys
 import numpy as np
