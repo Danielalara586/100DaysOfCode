@@ -1,4 +1,4 @@
-# Day 36: Tic-Tac-Toe Board
+# Day 36: Tic-Tac-Toe Pt1
 
 import pygame, sys
 
